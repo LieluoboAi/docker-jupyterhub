@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+
+  hub:
+    build: ./jupyter
+    container_name: hub
+    ports:
+      - "12138:8000"
+
